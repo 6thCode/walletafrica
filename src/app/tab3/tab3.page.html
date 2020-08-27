@@ -1,17 +1,65 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-segment mode="ios" class="first" value="all">
+      <ion-segment-button class="tab-title" value="all" checked>
+        Dollar Cards
+      </ion-segment-button>
+      <ion-segment-button class="tab-title" value="favorites">
+        Naira Cards
+      </ion-segment-button>
+    </ion-segment>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content [fullscreen]="true" class="scroll">
+    <div class="card-balance">
+      <div class="request">
+        <ion-text>
+          <p class="balance">Card Balance</p>
+          <h4 class="amount">$20.00</h4>
+        </ion-text>
+      <ion-button class="req-card" expand="block">REQUEST CARD</ion-button>
+      </div>
+      <!-- card image begins here -->
+        <ion-slides class="swiper-card" pager="true" [options]="slideOpts">
+          <ion-slide>
+            <ion-img src="../../assets/imgs/visa.png"></ion-img>
+          </ion-slide>
+          <ion-slide>
+            <ion-img src="../../assets/imgs/visa.png"></ion-img>
+          </ion-slide>
+        </ion-slides>
+      <!-- card image ends here -->
+    </div>
+    <div class="fund-btn">
+      <ion-button class="fund" href="/user-details" expand="block">FUND CARD</ion-button>
+    </div>
+    <!-- Transaction list begins here -->
+    <div class="transaction-list">
+      <div class="content-title">
+        <h2 class="transation">Transactions</h2>
+        <h3 class="see">See all</h3>
+      </div>
+      <app-list 
+        cardType="Dollar Card Topup via Wallet"
+        priceTag="$6.00"
+        timeLine="Jun 16">
+      </app-list>
+      <app-list 
+        cardType="Dollar Card Topup via Wallet"
+        priceTag="$6.00"
+        timeLine="Jun 16">
+      </app-list>
+      <app-list 
+        cardType="Dollar Card Topup via Wallet"
+        priceTag="$6.00"
+        timeLine="Jun 16">
+      </app-list>
+      <app-list 
+      cardType="Dollar Card Topup via Wallet"
+      priceTag="$6.00"
+      timeLine="Jun 16">
+      </app-list>
+    </div>
+  <!-- Transaction list ends here -->
 </ion-content>

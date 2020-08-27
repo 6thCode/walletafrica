@@ -1,0 +1,41 @@
+h5 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    color: #181528;
+    margin: 0px;
+}
+.card-fee {
+    display: flex;
+    flex-direction: row;
+}
+.price-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid #F2F2F2;
+    padding: 16px;
+}
+.card-title {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150.02%;
+    color: rgba(113, 110, 137, 0.8);
+    margin: 0px;
+}
+
+.copy {
+    border-radius: 22px;
+    padding: 4px 10px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 113.02%;
+    color: #532D94;
+    margin: 0px;
+}
+.copy:nth-child(2) {
+    background: #F0F0FF;
+}
+.copy:empty {
+    background: transparent;
+}

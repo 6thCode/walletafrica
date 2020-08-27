@@ -1,0 +1,110 @@
+span {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+ion-header {
+    --ion-toolbar-background: #fff;
+    margin: 25px 0px 0px 0px;
+    // padding: 12px;
+}
+.first {
+    background: #F6F6F9;
+    border-radius: 8;
+    min-height: 40px;
+}
+ion-segment-button {
+    --color: #181528;
+    margin: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+ion-segment-button:checked {
+    --background: #ffff;
+
+}
+
+.card-balance {
+    padding: 15px 15px 5px;
+}
+.request {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.balance {
+    color: #716E89;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    margin: 0;
+}
+.amount {
+    color: #181528;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150.02%;
+    margin: 0;
+}
+.req-card {
+    --background: #02CAB5;
+    --color: #fff;
+    --opacity: 1;
+    height: 33px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    border-radius: 4px;
+    --box-shadow:none;
+}
+.swiper-card {
+    min-height: 200px;
+}
+
+
+
+.fund-btn {
+    background: #F9F9FF;
+    border: 1px solid #ECECFF;
+    padding: 24px 27px;
+}
+
+.fund {
+    --background: #02CAB5;
+    --color: #fff;
+    --opacity: 1;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 145.52%;
+    --box-shadow:none;
+  }
+
+.transaction-list {
+    padding: 20px 15px;
+}
+
+.transation {
+    color: #181528;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150.02%;
+    margin: 0;
+}
+.see {
+    color: #532D94;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    margin: 0;
+}
+.content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0 6px;
+}
+.scroll .scroll-content{
+    overflow: scroll;
+}

@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons class="back" slot="start"  (click)="goBack()">
+      <ion-img src="../../assets/imgs/back.svg"></ion-img>
+    </ion-buttons>  
+    <ion-title>Card Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content [fullscreen]="true">
+    <!-- card image begins here -->
+    <ion-slides class="swiper-card" pager="true" [options]="slideOpts">
+      <ion-slide>
+        <div class="user-bal">
+          <ion-text>
+            <h5>$16,000.00</h5>
+            <p>Card Balance</p>
+          </ion-text>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="user-bal">
+          <ion-text>
+            <h5>$16,000.00</h5>
+            <p>Card Balance</p>
+          </ion-text>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  <!-- card image ends here -->
+  <!-- user details begins here -->
+    <app-userInfo 
+      cardTitle="Card Name"
+      cardName="Sandra Smith"
+      copy="copy">
+    </app-userInfo>
+    <app-userInfo 
+      cardTitle="Card Number"
+      cardName="4056 5647 7804 5439"
+      copy="copy">
+    </app-userInfo>
+    <app-userInfo 
+      cardTitle="Expiry Date"
+      cardName="05/23">
+    </app-userInfo>
+    <app-userInfo 
+      cardTitle="CVV"
+      cardName="944">
+    </app-userInfo>
+    <app-userInfo 
+      cardTitle="Billing Address"
+      cardName="4325 Todd St, FREMONT, CARLIFONIA"
+      copy="copy">
+    </app-userInfo>
+    <app-userInfo 
+      cardTitle="Zip Code"
+      cardName="99766">
+    </app-userInfo>
+    <div class="freeze-card">
+      <ion-label>Freeze Card</ion-label>
+      <ion-toggle></ion-toggle>
+    </div>
+    <!-- user details ends here -->
+  </ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <div class="btn-types">
+        <ion-button class="fund" href="/user-details" expand="block">FUND CARD</ion-button>
+        <ion-button class="fund" href="/user-details" expand="block">FUND CARD</ion-button>
+        <ion-button class="fund" href="/user-details" expand="block">FUND CARD</ion-button>
+      </div>
+    </ion-tab-bar>
+  </ion-tabs>

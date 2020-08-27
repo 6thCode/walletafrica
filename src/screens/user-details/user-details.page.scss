@@ -1,0 +1,115 @@
+
+ion-toolbar {
+    --ion-toolbar-background:radial-gradient(100% 100% at 100% 100%, #5C2799 0%, #00C9B6 100%);
+    min-height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}
+.back {
+    position: absolute;
+    left: 15px;
+}
+toolbar-container {
+    display: flex;
+    align-items: flex-end;
+}
+ion-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.user-bal {
+    width: 100%;
+    background: linear-gradient(180deg, #5D2C90 0%, #9F4073 100%);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 15px;
+}
+ion-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150.02%;
+    color: #FFFFFF;
+    margin: 10px;
+}
+p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.swiper-card {
+    min-height: 90px;
+    padding-bottom: 20px;
+}
+
+.freeze-card {
+    background: #F9F9FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+ion-label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    color: #181528;
+}
+
+ion-toggle {
+    --background: #716E89;
+    --background-checked: #716E89;
+    --handle-background: #fff;
+    --handle-background-checked: #00C9B6;
+  }
+
+  ion-tab-bar {
+      box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.08);
+      border-top: 0px;
+      padding: 0px 0px 15px;
+  }
+  .btn-types {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .fund {
+    --background: #02CAB5;
+    --color: #fff;
+    --opacity: 1;
+    height: 33px;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: normal;
+    --box-shadow:none;
+    border-radius: 4px;
+  }
+  .fund:nth-of-type(2) {
+    --background: #F9F9FF;
+    --color: #181528;
+    border: 0.75px solid #ECECFF;
+    border-radius: 4px;
+    margin: 0px 6px;
+}
+.fund:nth-of-type(3) {
+    --background: rgba(228, 68, 93, 0.2);;
+    --color: #DA1131;
+    border: 0.75px solid #E4445D;
+    border-radius: 4px;
+}
+ion-toggle {
+    height: 24px;
+}

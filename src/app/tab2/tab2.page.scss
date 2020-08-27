@@ -1,0 +1,43 @@
+ion-toolbar {
+    --ion-toolbar-background:radial-gradient(100% 100% at 100% 100%, #5C2799 0%, #00C9B6 100%);
+    min-height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    min-width: 55px;
+    align-items: center;
+}
+ion-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.transact-list {
+    background: #F9F9FF;
+    padding: 10px 20px 5px;
+}
+h5 {
+    color: #716E89;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.list-details {
+    background: #fff;
+    padding: 0 20px;
+}

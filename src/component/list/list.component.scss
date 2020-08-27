@@ -1,0 +1,28 @@
+h5 {
+    color: #181528;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150.02%;
+    margin: 0px;
+}
+.card-fee {
+    display: flex;
+    flex-direction: row;
+}
+.padding {
+    padding-left: 10px;
+}
+.price-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 16px 0px;
+}
+p {
+    color: #716E89;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150.02%;
+    margin: 0px;
+}
